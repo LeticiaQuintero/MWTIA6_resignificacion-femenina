@@ -1,0 +1,78 @@
+header{
+    background-image:linear-gradient(rgb(236, 158, 208) rgb(120, 25, 104));
+    display: grid;
+    grid-template-columns: 100px 800px 200px;
+    grid-template-rows: 400px 100px 200px;
+    justify-items: center;
+}
+
+body{
+    background-color: rosybrown; 
+    color: bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger; 
+}
+#h1{
+    background-image: radial-gradient(rgb(236, 158, 208), rgb(120, 25, 104 ));
+    font-size: xx-large;
+}
+h2{
+    color: rgb(6, 6, 81);
+    font-family: fantasy;
+    font-style: oblique;
+    font-size: x-large;
+    text-decoration: cadetblue;
+    text-align: center;
+}
+p{
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:italic;
+    font-size: medium;
+    text-decoration: darkgray;
+    text-shadow: gainsboro;
+}
+#logo{
+    width: 200px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+h1{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.barra-nav{
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+nav{
+    width: 100%;
+}
+.menu{
+display:flex;
+justify-content: space-between;
+}
+#rvf{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#titulo{
+    width: 350px;
+}
+#Pte1{
+    background-image:linear-gradient(rgb(236, 158, 208), rgb(120, 25, 104));
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33.9% 33.9% 33.9%;
+    justify-items: right;
+}
+.naturaleza{
+    width: 258.99px ;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+#primer-parrafo{
+    grid-column: 2/2;
+    grid-row: 2/3;
+    justify-content: right;
+}

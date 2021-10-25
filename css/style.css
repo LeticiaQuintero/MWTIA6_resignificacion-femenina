@@ -20,7 +20,9 @@ body{
 }
 #h1{
     background-image: radial-gradient(rgb(236, 158, 208), rgb(120, 25, 104 ));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: xx-large;
+
 }
 h2{
     color: rgb(6, 6, 81);
@@ -60,10 +62,16 @@ display:flex;
 justify-content: space-between;
 }
 #rvf{
+    height: 100%;
     grid-column: 2/3;
-    grid-row: 1/2;
-    align-self:center;
+    grid-row: 1/2; 
 }
+
+/*  usamos un selector descendente para darle estilo al enlace y dentro la imagen    */
+#rvf img{
+    height: 100%;
+}
+
 #titulo{
     width: 350px;
 }
@@ -71,7 +79,7 @@ justify-content: space-between;
     height: 100vh;
     background-image:linear-gradient(rgb(236, 158, 208), rgb(120, 25, 104));
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50vw 50vw;
     grid-template-rows: 33.3vh 33.3vh 33.3vh;
     justify-items: right;
 }
@@ -97,94 +105,68 @@ justify-content: space-between;
 }
 
 #primer-parrafo{
+    height: 100%;
     grid-column: 2/2;
     grid-row: 2/3;
     justify-content: right;
+    font-size: 18px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#Pte2{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 60vw 40vw;
+    grid-template-rows: 35vh 30vh 35vh;
+}
+#moral{
+    height: 100%;
+    width: 75%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: right;
+}
+#etica{
+    height: 100%;
+    width: 75%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: left;
+}
+#bien{
+    height: 100%;
+    width: 75%;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-self: right;
+}
+#parrafo2{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    font-size: 18px;
+}
+.etica{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 28px;
+}
 #Pte3{
     height: 100vh;
     display: grid;
-    grid-template-columns:60vh 40vh ;
-    grid-template-rows: 40vw 60vw;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50vh 50vh;
 }
+#balanza{
+    height: 100%;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.poder{
+    font-size: 28px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+ }
+ #parrafo3{
+     grid-column: 1/3;
+     grid-row: 2/3;
+ }
+   

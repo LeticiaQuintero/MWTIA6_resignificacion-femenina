@@ -16,7 +16,6 @@ body{
     background-color: rosybrown; 
     color: bisque;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: larger; 
 }
 #h1{
     background-image: radial-gradient(rgb(236, 158, 208), rgb(120, 25, 104 ));
@@ -36,7 +35,7 @@ p{
     color: aqua;
     font-family: 'Courier New', Courier, monospace;
     padding: 30px;
-    font-size: 24px;
+    font-size: 20px;
 }
 #logo{
     width: 80%;
@@ -51,6 +50,8 @@ h1{
 .barra-nav{
     grid-column: 1/4;
     grid-row: 3/4;
+    font-family: cursive;
+    font-size: 24px;
 }
 nav{
     width: 100%;
@@ -84,6 +85,19 @@ justify-content: space-between;
 .naturaleza{
     height: 100%;
 
+}
+#hm-poder{
+    height: 100%;
+    width: 80%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: left;
+}
+#chicas{
+    height: 80%;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-self: right;
 }
 .n1{
  
@@ -196,68 +210,99 @@ justify-content: space-between;
 #Pte5{
     height: 100%;
     display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column: 20vh 40vh 40vh;
+}
+.genero_poder{
+    font-size: 24px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.parrafo5{
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+#Pte6{
+    height: 100%;
+    display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 50vh 50vh;
 }
 .estadisticas{
     grid-column: 1/2;
     grid-row: 1/2;
+    justify-self: self-end;
 }
 #alfabetismo{
     height: 80%;
+    width:90%;
     grid-column: 2/3;
     grid-row: 1/2;
 }
 #educ{
     height: 80%;
+    width: 90%;
     grid-column:3/4;
     grid-row: 1/2;
 }
 #hogar{
     height: 80%;
+    width: 90%;
     grid-column: 4/5;
     grid-row: 1/2;
 }
 #propiedad{
     height: 80%;
+    width: 90%;
     grid-column: 2/3;
     grid-row: 2/3;
 }
 #salario{
     height: 80%;
+    width: 90%;
     grid-column: 3/4;
     grid-row:2/3;   
 }
 #trabajo{
     height: 80%;
+    width: 90%;
     grid-column: 4/5;
     grid-row: 2/3;
 }
-#Pte6{
+#Pte7{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50vh 50vh;
 }
 #RESPETO{
-    height: 80%;
+    height: 100%;
+    width: 80%;
     grid-column: 1/2;
     grid-row: 1/2;
+    justify-self: center;
 }
 #valor{
-    height: 80%;
+    height: 100%;
+    width: 80%;
     grid-column: 2/3;
     grid-row: 1/2;
+    justify-self: center;
 }
 #patriarcado{
-    height: 80%;
+    height: 100%;
+    width: 80%;
     grid-column:1/2;
     grid-row: 2/3;
+    justify-self: center;
 }
 #igualdad{
-    height: 80%;
+    height: 100%;
+    width: 80%;
     grid-column: 2/3;
     grid-row: 2/3;
+    justify-self: center;
 }
 footer{
     height: 20vh;
@@ -267,4 +312,5 @@ footer{
 footer ul{
     display: flex;
     justify-content: space-between;
+    font-size: xx-large;
 }

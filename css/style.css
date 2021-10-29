@@ -28,13 +28,15 @@ h2{
     color: rgb(6, 6, 81);
     font-family: fantasy;
     font-style: oblique;
-    font-size: x-large;
+    font-size: 40px;
     text-decoration: cadetblue;
     text-align: center;
 }
 p{
     color: aqua;
     font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    font-size: 24px;
 }
 #logo{
     width: 80%;
@@ -105,7 +107,6 @@ justify-content: space-between;
     grid-column: 2/2;
     grid-row: 2/3;
     justify-content: right;
-    font-size: 18px;
 }
 #Pte2{
     height: 100%;
@@ -137,7 +138,6 @@ justify-content: space-between;
 #parrafo2{
     grid-column: 1/2;
     grid-row: 2/4;
-    font-size: 18px;
 }
 .etica{
     grid-column: 1/2;
@@ -163,7 +163,6 @@ justify-content: space-between;
     grid-row: 1/2;
  }
  #parafo3{
-     font-size: 18px;
      grid-column: 1/3;
      grid-row: 2/3;
      justify-content:center ;
@@ -180,7 +179,6 @@ justify-content: space-between;
     grid-row: 1/2;
 }
 .parrafo4{
-    font-size: 18px;
      grid-column: 1/4;
      grid-row: 2/3;
      justify-content:center ;

@@ -7,7 +7,7 @@ header{
     height: 100vh;
     background-image:linear-gradient(rgb(236, 158, 208) rgb(120, 25, 104));
     display: grid;
-    grid-template-columns: 40vw 60vw;
+    grid-template-columns: 40% 60%;
     grid-template-rows: 50vh 20vh 30vh;
     justify-items: center;
 }
@@ -77,7 +77,7 @@ justify-content: space-between;
     height: 100vh;
     background-image:linear-gradient(rgb(236, 158, 208), rgb(120, 25, 104));
     display: grid;
-    grid-template-columns: 50vw 50vw;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 33.3vh 33.3vh 33.3vh;
     justify-items: right;
 }
@@ -111,7 +111,7 @@ justify-content: space-between;
 #Pte2{
     height: 100%;
     display: grid;
-    grid-template-columns: 60vw 40vw;
+    grid-template-columns: 60% 40%;
     grid-template-rows: 35vh 30vh 35vh;
 }
 #moral{
@@ -170,7 +170,7 @@ justify-content: space-between;
  #Pte4{
     height: 100vh;
     display: grid;
-    grid-template-columns: 30vw 40vw 30vw;
+    grid-template-columns: 30% 40% 30%;
     grid-template-rows: 60vh 40vh;
  }
 .edufem{
@@ -184,19 +184,19 @@ justify-content: space-between;
      justify-content:center ;
 }
 .mujeres{
-    height: 80%;
+    height: 50%;
     grid-column: 1/2;
     grid-row: 1/2;
 }
 .educacion{
-    height: 80%;
+    height: 50%;
     grid-column: 3/4;
     grid-row: 1/2;
 }
 #Pte5{
     height: 100%;
     display: grid;
-    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 50vh 50vh;
 }
 .estadisticas{
@@ -236,7 +236,7 @@ justify-content: space-between;
 #Pte6{
     height: 100vh;
     display: grid;
-    grid-template-columns: 50vw 50vw;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 50vh 50vh;
 }
 #RESPETO{

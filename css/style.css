@@ -35,7 +35,7 @@ p{
     color: aqua;
     font-family: 'Courier New', Courier, monospace;
     padding: 30px;
-    font-size: 20px;
+    font-size: 16px;
 }
 #logo{
     width: 80%;
@@ -124,6 +124,7 @@ justify-content: space-between;
 }
 #Pte2{
     height: 100%;
+    background-image: radial-gradient(rgb(214, 132, 145), (rgb(59, 13, 59)));
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: 35vh 30vh 35vh;
@@ -163,7 +164,7 @@ justify-content: space-between;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50vh 50vh;
-    border:2px solid black;
+    background-image: radial-gradient(rgb(255, 192, 221), rgb(77, 3, 52));
 }
 #balanza{
     height: 100%;
@@ -212,6 +213,7 @@ justify-content: space-between;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-column: 20vh 40vh 40vh;
+    background-image: radial-gradient(rgb(92, 49, 56), rgb(247, 104, 247));
 }
 .genero_poder{
     font-size: 24px;
@@ -275,6 +277,7 @@ justify-content: space-between;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50vh 50vh;
+    background-image: radial-gradient(rgb(42, 21, 54), rgb(66, 13, 22));
 }
 #RESPETO{
     height: 100%;

@@ -311,9 +311,15 @@ footer{
     height: 20vh;
     background-color: rgb(99, 88, 88);
     color: rgb(181, 181, 255);
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 100%;
 }
-footer ul{
-    display: flex;
-    justify-content: space-between;
-    font-size: xx-large;
+#logo_footer{
+    height:;
+    grid-column: 1/2;
+}
+#enlaces{
+    grid-column: 2/3;
+    display: flexbox;
 }

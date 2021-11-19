@@ -3,19 +3,20 @@
     margin: 0px;
 }
 
-header{
+body{
+    /* background-color: rgb(17, 85, 105);  */
+    color: bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#header{
     height: 100vh;
-    background-image:linear-gradient(rgb(236, 158, 208) rgb(120, 25, 104));
+    /* background-image: linear-gradient(blue,red); */
+    background-image:radial-gradient(rgb(236, 158, 208), rgb(120, 25, 104));
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: 50vh 20vh 30vh;
     justify-items: center;
-}
-
-body{
-    background-color: rosybrown; 
-    color: bisque;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #h1{
     background-image: radial-gradient(rgb(236, 158, 208), rgb(120, 25, 104 ));
@@ -27,15 +28,16 @@ h2{
     color: rgb(6, 6, 81);
     font-family: fantasy;
     font-style: oblique;
-    font-size: 40px;
+    font-size: 60px;
     text-decoration: cadetblue;
     text-align: center;
+    text-shadow: 0px 0px 5px aqua;
 }
 p{
     color: aqua;
     font-family: 'Courier New', Courier, monospace;
     padding: 30px;
-    font-size: 16px;
+    font-size: 20px;
 }
 #logo{
     width: 80%;
@@ -57,8 +59,9 @@ nav{
     width: 100%;
 }
 .menu{
-display:flex;
-justify-content: space-between;
+  display:flex;
+  justify-content: space-between;
+  list-style: none;
 }
 #rvf{
     height: 100%;
@@ -76,7 +79,7 @@ justify-content: space-between;
 }
 #Pte1{
     height: 100vh;
-    background-image:linear-gradient(rgb(236, 158, 208), rgb(120, 25, 104));
+    background-image:radial-gradient(rgb(236, 158, 208), rgb(120, 25, 104));
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 33.3vh 33.3vh 33.3vh;
@@ -124,7 +127,8 @@ justify-content: space-between;
 }
 #Pte2{
     height: 100%;
-    background-image: radial-gradient(rgb(214, 132, 145), (rgb(59, 13, 59)));
+    /* background-image: linear-gradient(blue,red); */
+    background-image: radial-gradient(rgb(214, 132, 145), rgb(59, 13, 59));
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: 35vh 30vh 35vh;
@@ -177,7 +181,7 @@ justify-content: space-between;
     grid-column: 2/3;
     grid-row: 1/2;
  }
- #parafo3{
+ .parrafo3{
      grid-column: 1/3;
      grid-row: 2/3;
      justify-content:center ;
@@ -186,7 +190,8 @@ justify-content: space-between;
     height: 100vh;
     display: grid;
     grid-template-columns: 30% 40% 30%;
-    grid-template-rows: 60vh 40vh;
+    grid-template-rows: 40vh 60vh;
+    background-image: radial-gradient(rgb(255, 192, 221), rgb(77, 3, 52));
  }
 .edufem{
     font-size: 24px;
@@ -316,10 +321,27 @@ footer{
     grid-template-rows: 100%;
 }
 #logo_footer{
-    height:;
+    height:100%;
     grid-column: 1/2;
+}
+#logofooter{
+    height: 100%;
 }
 #enlaces{
     grid-column: 2/3;
-    display: flexbox;
+    font-size: 36px;
+    /* border: 2px dashed blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#contacto{
+     /* border: 2px dashed blue; */
+     display: flex;
+     justify-content: center;
+    }
+#contacto p{     
+     font-size: 36px;
+     color: white;
+     text-shadow: 0px 0px 5px aqua;
 }

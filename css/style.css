@@ -36,8 +36,8 @@ h2{
 p{
     color: aqua;
     font-family: 'Courier New', Courier, monospace;
-    padding: 30px;
-    font-size: 20px;
+    padding: 20px;
+    font-size: 18px;
 }
 #logo{
     width: 80%;
@@ -177,7 +177,7 @@ nav{
     grid-row: 1/2;
 }
 .poder{
-    font-size: 28px;
+    font-size: 26px;
     grid-column: 2/3;
     grid-row: 1/2;
  }
@@ -204,12 +204,12 @@ nav{
      justify-content:center ;
 }
 .mujeres{
-    height: 50%;
+    height: 80%;
     grid-column: 1/2;
     grid-row: 1/2;
 }
 .educacion{
-    height: 50%;
+    height: 80%;
     grid-column: 3/4;
     grid-row: 1/2;
 }

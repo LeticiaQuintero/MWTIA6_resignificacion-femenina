@@ -38,7 +38,7 @@ p{
     color: aqua;
     font-family: 'Courier New', Courier, monospace;
     padding: 20px;
-    font-size: 18px;
+    font-size: 24px;
 }
 #logo{
     width: 80%;
@@ -100,12 +100,6 @@ nav{
 #Pte1 p{
     grid-column: 2/3;
     grid-row: 2/4;
-}
-#chicas{
-    height: 80%;
-    grid-column: 2/3;
-    grid-row: 3/4;
-    justify-self: right;
 }
 .n1{
     height: 100%;
@@ -177,7 +171,7 @@ nav{
  
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto;
+    grid-template-rows: 50vh auto;
     background-image: radial-gradient(rgb(255, 192, 221), rgb(77, 3, 52));
 }
 #balanza{
@@ -200,7 +194,7 @@ nav{
     
     display: grid;
     grid-template-columns: 30% 40% 30%;
-    grid-template-rows: 40vh 60vh;
+    grid-template-rows: 40vh auto;
     background-image: radial-gradient(rgb(255, 192, 221), rgb(77, 3, 52));
  }
 .edufem{
@@ -230,17 +224,29 @@ nav{
     height: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-column: 20vh 40vh 40vh;
+    grid-column: auto 40vh 40vh;
     background-image: radial-gradient(rgb(92, 49, 56), rgb(247, 104, 247));
+}
+#chicas{
+    height: 80%;
+    width: 80%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: right;
+}
+#hm-poder{
+    height: 80%;
+    grid-column: 1/2;
+    grid-row: 3/4;
 }
 .genero_poder{
     font-size: 24px;
     grid-column: 1/2;
     grid-row: 1/2;
 }
-.parrafo5{
-    grid-column: 1/2;
-    grid-row: 2/4;
+#Pte5 p{
+    grid-column: 2/3;
+    grid-row: 1/4;
 }
 
 #Pte6{

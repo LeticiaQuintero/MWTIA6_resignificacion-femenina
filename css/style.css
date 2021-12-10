@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
-    margin: 0px;
+    margin: 2px;
+    padding: 5px;
 }
 
 body{
@@ -341,7 +342,7 @@ footer{
      justify-content: center;
     }
 #contacto p{     
-     font-size: 36px;
+     font-size: 30px;
      color: white;
      text-shadow: 0px 0px 5px aqua;
 }
